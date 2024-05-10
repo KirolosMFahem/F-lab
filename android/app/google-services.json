@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "279068416482",
+    "project_id": "f-lab-lfsjjw",
+    "storage_bucket": "f-lab-lfsjjw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279068416482:android:7f31e839e699ba8c2281bb",
+        "android_client_info": {
+          "package_name": "com.mycompany.flab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279068416482-ndg4lu6jk26tvkp06v29odjm0l04u6l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmjnzfvGPKm8QsBRhSM_TxQLM8iu5zB3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279068416482-ndg4lu6jk26tvkp06v29odjm0l04u6l9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "279068416482-hemada0qub32ot63prl5aradof1oj3b6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "eg.edu.asu.sedu.flab"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279068416482:android:c571c0adfd4425f02281bb",
+        "android_client_info": {
+          "package_name": "eg.edu.asu.sedu.flab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279068416482-08p2gq29rmgfbclsnfbp6i41l0k2amcr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eg.edu.asu.sedu.flab",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "279068416482-ndg4lu6jk26tvkp06v29odjm0l04u6l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmjnzfvGPKm8QsBRhSM_TxQLM8iu5zB3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279068416482-ndg4lu6jk26tvkp06v29odjm0l04u6l9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "279068416482-hemada0qub32ot63prl5aradof1oj3b6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "eg.edu.asu.sedu.flab"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -20,6 +20,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => HomePageModel());
+
+    logFirebaseEvent('screen_view', parameters: {'screen_name': 'HomePage'});
+    WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
   }
 
   @override
@@ -38,6 +41,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        body: const SafeArea(
+          top: true,
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            children: [],
+          ),
+        ),
       ),
     );
   }
